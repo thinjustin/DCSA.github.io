@@ -135,8 +135,8 @@ display: flex;
 justify-content: center;
 padding: 30px;
 border-radius: 12px;
-background: linear-gradient(45deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
-animation: color 30s ease-in-out infinite;
+background: linear-gradient(90deg, #ADD8E6 0%, #87AFC7 25%, #7F7F7F 50%, #804040 75%, #800000 100%);
+animation: color 10s ease-in-out infinite;
 background-size: 300% 300%;
 scroll-snap-align: start;
 box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
@@ -218,14 +218,13 @@ height: 100px;
     backface-visibility: hidden;
   }
   .back {
-    background-color: #3a3a3a;
+    background-color: rgb(197,228,255) ;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    color: white;
   }
   #logod{
     height: 540px;
@@ -241,6 +240,7 @@ height: 100px;
     display: flex;
     justify-content: center;
     align-items:center;
+    background-color: rgb(197,228,255) ;
 }
 #achieve{
     border: 5px solid white;
@@ -402,7 +402,6 @@ height: 100px;
     display: flex;
     justify-content: center;
     align-items:center;
-    
 }
 #project1 {
     border: 5px solid white;
